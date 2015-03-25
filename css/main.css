@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+    }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block
+    }
+
+body {
+    line-height: 1
+    }
+
+ol, ul {
+    list-style: none
+    }
+
+blockquote, q {
+    quotes: none
+    }
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+    content: none
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+    }
+
+html {
+    font-size: 16px
+    }
+
+body {
+    font-size: 1em;
+    line-height: 1.5
+    }
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.75em;
+    /*12px*/
+    }
+
+a:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+    -moz-transition: 0.3s ease 0.2s;
+    -o-transition: 0.3s ease 0.2s;
+    -webkit-transition: 0.3s ease 0.2s;
+    transition: 0.3s ease 0.2s
+    }
+
+img {
+    max-width: 100%;
+    margin-bottom: -8px
+    }
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -mox-box-sizing: border-box
+    }
+
+.wrap {
+    padding-top: 10px;
+    width: 90%;
+    margin: 0 auto
+    }
+
+aside, main {
+    float: left
+    }
+
+aside {
+    width: 22.72727272%;
+    /*250px*/
+    }
+
+main {
+    width: 77.27272%;
+    /*850px*/
+    padding: 0.882353% 0 0.882353% 0.882353%
+    }
+
+.contact {
+    margin-bottom: 20px
+    }
+
+header, aside section {
+    width: 84%;
+    margin: 0 auto;
+    /*210px*/
+    }
+
+.one-third {
+    width: 30.98039215%;
+    /*263.3px*/
+    float: left;
+    margin: 0.882353%;
+    background-color: #000;
+    padding-bottom: 0
+    }
+
+ul {
+    text-align: center;
+    line-height: 1.3
+    }
+
+/* Desktops and laptops ----------- */
+@media only screen and (max-width: 960px) {
+    html {
+        font-size: 14px
+        }
+    main {
+        padding: 0
+        }
+    .one-third {
+        width: 100%;
+        margin: 5px
+        }
+    }
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 16px
+        }
+    aside, main {
+        width: 100%
+        }
+    header, aside section {
+        width: 50%
+        }
+    .one-third {
+        margin: 2.5px 0
+        }
+    .social, .acheivements {
+        display: none
+        }
+    .contact {
+        margin: -15px 0 15px
+        }
+    }
